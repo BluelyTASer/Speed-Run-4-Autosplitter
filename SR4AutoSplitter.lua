@@ -62,6 +62,7 @@ Player.CharacterAdded:Connect(function()
       AutoSplitter = 0
       Input.KeyPress(0x63)
     end
+    Dead = 0
   end)
   Humanoid.Died:Connect(function()
     Dead = 1
